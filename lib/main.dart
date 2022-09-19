@@ -5,7 +5,7 @@ import 'package:spotify/theme/my_theme.dart';
 
 void main() => runApp(
   Sizer(
-    builder: (context, orientation, deviceType) => const SpotifyClon()
+    builder: (_, __, ___) => const SpotifyClon()
   )
 );
 

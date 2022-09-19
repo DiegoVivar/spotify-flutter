@@ -102,26 +102,42 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
 
-              const SpotifyCardCarousel(
+              SpotifyCardCarousel(
                 carouselTitle: 'Vuelve a tu música',
                 cardList: [
-                  SpotifyCard(
+                  const SpotifyCard(
                     type: CardType.album,
                     artist: 'Megadeth',
                     image: NetworkImage('https://i.scdn.co/image/ab67616d0000b2738fc06398d8852596d4981252'), 
                     title: "Peace Sells... But Who's Buying?",
                   ),
-                  SpotifyCard(
+                  const SpotifyCard(
                     type: CardType.album,
                     artist: 'Megadeth',
                     image: NetworkImage('https://i.scdn.co/image/ab67616d0000b2733171798d5cfc745f0ba24c84'), 
                     title: 'Youthanasia',
                   ),
-                  SpotifyCard(
+                  const SpotifyCard(
                     type: CardType.album,
                     artist: 'Megadeth',
                     image: NetworkImage('https://i.scdn.co/image/ab67616d0000b273ce8c55092dba3c0d2b0dc6f3'), 
                     title: 'Endgame',
+                  ),
+                  const SpotifyCard(
+                    type: CardType.artist,
+                    artist: 'Luis Miguel',
+                    image: NetworkImage('https://i.scdn.co/image/ab6761610000e5eb6481401e529e475116702a29'), 
+                  ),
+                  SpotifyCard(
+                    type: CardType.artist,
+                    artist: 'Megadeth',
+                    image: NetworkImage(megadeth), 
+                  ),
+                  const SpotifyCard(
+                    type: CardType.album,
+                    artist: 'Megadeth',
+                    image: NetworkImage('https://http2.mlstatic.com/D_NQ_NP_664913-MLC31789978317_082019-O.jpg'), 
+                    title: 'Rust in Peace',
                   ),
                 ]
               ),
